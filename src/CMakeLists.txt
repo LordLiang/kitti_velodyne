@@ -1,5 +1,0 @@
-cmake_minimum_required(VERSION 2.6 FATAL_ERROR)
-ADD_EXECUTABLE(kitti2pcd kitti2pcd.cpp)
-ADD_EXECUTABLE(pcd2ply pcd2ply.cpp)
-TARGET_LINK_LIBRARIES(kitti2pcd ${Boost_LIBRARIES} ${PCL_LIBRARIES})
-TARGET_LINK_LIBRARIES(pcd2ply ${Boost_LIBRARIES} ${PCL_LIBRARIES})
